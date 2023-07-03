@@ -1,0 +1,77 @@
+body {
+    background-color: brown;
+}
+@red: rgb(140, 255, 0);
+.text_st(@fs: 30px){
+    font-size: @fs;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.section_one{
+    padding: 20px;
+    padding-left: 140px;
+    background-color: rgb(140, 255, 0);
+    
+}
+.nickname ,.main a,.example a{
+    color: white;
+    .text_st()
+    
+}
+
+
+.section_two{
+    margin-top: 30px;
+   
+}
+.header{
+    color: @red;
+}
+.problem_one{
+    margin-top: 40px;
+    color: @red;
+}
+.image_one{
+    width: 600px;
+    height: 400px;
+    border: 10px @red solid;
+    padding: 5px;
+}
+.text_one{
+    font-size: 20px;
+    }
+.section_three{
+    margin-top: 30px;
+    padding: 50px;
+}
+.form{
+    border: 10px @red solid;
+    padding: 30px;
+    margin-top: 30px;
+}
+.header_form{
+    color: @red;
+}
+.form-label, .form-control{
+    color: @red;
+}
+.section_four{
+    background-color: @red;
+    padding: 20px;;
+}
+
+.contact {
+    .text_st();
+    color: white;
+}
+.image_dodo{
+    width: 130px;
+    height: 130px;
+    margin-left: 100px;
+    
+}
+.text_dodo a{
+    .text_st(50px);
+    color: white;
+}

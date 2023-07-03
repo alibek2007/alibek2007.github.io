@@ -1,0 +1,78 @@
+body {
+    background-color: brown;
+}
+.section_one{
+    padding: 20px;
+    padding-left: 140px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.nickname ,.main a,.example a{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.section_two{
+    margin-top: 30px;
+   
+}
+.header{
+    color: red;
+}
+.problem_one{
+    margin-top: 40px;
+    color: red;
+}
+.image_one{
+    width: 600px;
+    height: 400px;
+    border: 10px red solid;
+    
+    padding: 5px;
+}
+.text_one{
+    font-size: 20px;
+    
+}
+.section_three{
+    margin-top: 30px;
+    padding: 50px;
+
+}
+.form{
+    border: 10px rgb(255, 0, 0) solid;
+    padding: 30px;
+    margin-top: 30px;
+    
+    
+}
+.header_form{
+    color: red;
+}
+.form-label, .form-control{
+    color: red;
+}
+.section_four{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.contact {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.image_dodo{
+    width: 130px;
+    height: 130px;
+    margin-left: 100px;
+}
+.text_dodo a{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(189, 0, 0);
+    text-decoration: none;
+}
