@@ -1,5 +1,5 @@
 body {
-    background-color: brown;
+    background-color: yellow;
 }
 .section_one{
     padding: 20px;
@@ -9,7 +9,7 @@ body {
 
 
 .nickname ,.main a,.example a{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     color: rgb(255, 0, 0);
     text-decoration: none;
